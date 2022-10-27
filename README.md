@@ -1,6 +1,6 @@
 # Override file for OriCS
 
-## Copyright notice and license (from EDOPro)
+## Copyright notice and license (of EDOPro)
 
 Copyright (C) 2020  Project Ignis contributors. See version history and author credit line for each file.
 ```
