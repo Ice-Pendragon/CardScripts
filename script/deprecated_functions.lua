@@ -1,4 +1,5 @@
 if not load then
+	Duel.LoadScript("CS_init.lua")
 	return
 end
 local function make_deprecated_function_alias(old_funcname,new_funcname)
@@ -50,3 +51,5 @@ end
 make_deleted_function("Auxiliary.CallToken","Use Duel.LoadCardScript or Duel.LoadScript instead.")
 make_deleted_function("Auxiliary.SpiritReturnCondition","Check Spirit.MandatoryReturnCondition and Spirit.OptionalReturnCondition for more details.")
 make_deleted_function("Auxiliary.SpiritReturnTarget","Check Spirit.MandatoryReturnTarget and Spirit.OptionalReturnTarget for more details.")
+
+Duel.LoadScript("CS_init.lua")
