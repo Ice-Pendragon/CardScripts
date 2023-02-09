@@ -1,0 +1,5 @@
+*.lua
+/**/
+!/.github
+!/script
+!/script/*.lua
